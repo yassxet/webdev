@@ -1,0 +1,66 @@
+
+
+.flexed-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.username-passwordLabel{
+    display: flex;
+    font-size: 15px;
+}
+
+.signup-view{
+    display: grid;
+    justify-content: center;
+}
+
+.layout-SignupView{
+   
+    padding: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.label{
+font-size: 15px;
+}
+
+.button-refresh{
+    padding: 5px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.button-back{
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.messages-view{
+    height: 100%;
+  
+}
+
+.box-input-send{
+ position: fixed;
+ bottom: 0;
+    width: 100%;
+}
+
+.buttonSend{
+    width: inherit;
+    max-width: fit-content;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
